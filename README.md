@@ -1,7 +1,7 @@
 # twittercontrol
 * Twittercontrol allows people to use twitter to control applications
 * In the demonstration, you will tweet a question and then it will reply with a response on your screen
-* It works by each keyword has a function completed when the keyword is found wihin the tweet which mentions your twitter handle
+* It works by each keyword has a corresponding action (function) completed when a keyword is found within the tweet which mentions your twitter handle
 
 
 ## Setup and Test twittercontrol
@@ -24,7 +24,7 @@ access_token = "<access token key>"
 access_token_secret = "<access token secret>"
 ```
 
-6 - Then run *twittercontrol.py* and tweet from your account @your twitter handle What is your favourite single-board computer?
+6 - Then run *twittercontrol.py* and tweet from your account *@your twitter handle What is your favourite single-board computer?*
   
 7 - The script should then print **Raspberry Pi 4** if it has worked
 
