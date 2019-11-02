@@ -46,7 +46,7 @@ def what_is_your_favourite_sbc():
 
 6- Then tweet *@your_twitter_handle keyword* and hopefully your actions should be completed
 
-Below is an example of what you could do to control a robot on a raspberry pi using gpiozero:
+Below is an example of what you could do to control a robot on a Raspberry Pi using gpiozero(https://gpiozero.readthedocs.io/en/stable/index.html):
 ```python
 from gpiozero import Robot
 robot = Robot(left=(4, 14), right=(17, 18))
