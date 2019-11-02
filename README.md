@@ -1,5 +1,5 @@
 # twittercontrol
-* Twittercontrol allows people to use twitter to control applications
+* Twittercontrol allows people to use twitter to control applications in python
 * In the demonstration, you will tweet a question and then it will reply with a response on your screen
 * It works by each keyword has a corresponding action (function) completed when a keyword is found within a tweet that mentions your twitter handle
 
