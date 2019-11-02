@@ -12,11 +12,15 @@ Allows people to use twitter to control python projects
 5 - Go into *twittercontrol.py* and copy and paste the consumer, consumer secret, access token and access token secret keys - don't forget to put in the twitter handle you want to check to see if someone has posted!
 
 ```python
-twitterHandle='@roboti2c'
+twitterHandle='<your twitter handle>'
 consumer_key = "<consumer api key>"
 consumer_secret = "<consumer api secret key>"
 access_token = "<access token key>"
 access_token_secret = "<access token secret>"
 ```
+
+6 - Then run *twittercontrol.py* and tweet from your account @<your twitter handle> What is your favourite single-board computer?
+  
+7 - The script should then print **Raspberry Pi 4** if it has worked
 
 
