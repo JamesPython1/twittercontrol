@@ -32,7 +32,7 @@ access_token_secret = "<access token secret>"
 
 1 - Open the *actions.py* script in your editor
 
-2- Create a new function below (name it what ever you want):
+2- Create a new function below this code (but before the *keywords* and *actions* lists):
 ```python
 #what is your favourite single-board computer
 def what_is_your_favourite_sbc():
