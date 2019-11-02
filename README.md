@@ -1,6 +1,8 @@
 # twittercontrol
 Allows people to use twitter to control python projects
 
+## Setup and Test twittercontrol
+
 1 - Install twython (https://github.com/ryanmcgrath/twython) with ```pip install twython```
 
 2 - Go to https://projects.raspberrypi.org/en/projects/getting-started-with-the-twitter-api/2 and follow the instructions to create a twitter developer account
@@ -19,8 +21,12 @@ access_token = "<access token key>"
 access_token_secret = "<access token secret>"
 ```
 
-6 - Then run *twittercontrol.py* and tweet from your account @<your twitter handle> What is your favourite single-board computer?
+6 - Then run *twittercontrol.py* and tweet from your account @your twitter handle What is your favourite single-board computer?
   
 7 - The script should then print **Raspberry Pi 4** if it has worked
+
+## Create your own action
+
+
 
 
