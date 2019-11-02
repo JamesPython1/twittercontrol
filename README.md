@@ -1,7 +1,7 @@
 # twittercontrol
 * Twittercontrol allows people to use twitter to control applications
 * In the demonstration, you will tweet a question and then it will reply with a response on your screen
-* It works by each keyword has a corresponding action (function) completed when a keyword is found within the tweet which mentions your twitter handle
+* It works by each keyword has a corresponding action (function) completed when a keyword is found within a tweet that mentions your twitter handle
 
 
 ## Setup and Test twittercontrol
@@ -24,7 +24,7 @@ access_token = "<access token key>"
 access_token_secret = "<access token secret>"
 ```
 
-6 - Then run *twittercontrol.py* and tweet from your account *@your twitter handle What is your favourite single-board computer?*
+6 - Then run *twittercontrol.py* and tweet from your account *@your_twitter_handle What is your favourite single-board computer?*
   
 7 - The script should then print **Raspberry Pi 4** if it has worked
 
@@ -46,16 +46,20 @@ def what_is_your_favourite_sbc():
 
 6- Then tweet *@your_twitter_handle keyword* and hopefully your actions should be completed
 
+Below is an example of what you could do to control a robot on a raspberry pi using gpiozero:
 ```python
+from gpiozero import Robot
+robot = Robot(left=(4, 14), right=(17, 18))
+
 #what is your favourite single-board computer
 def what_is_your_favourite_sbc():
     print('Raspberry Pi 4!')
-#<your new function>
-def <your new function>():
-  #do something here
-
-keywords=['What is your favourite single-board computer?','<the words you want to be tweeted after your handle>']
-actions=[what_is_your_favourite_sbc,<your new function>]
+#move robot forward
+def move_robot_forward():
+    robot.forward()
+   
+keywords=['What is your favourite single-board computer?','move robot forward']
+actions=[what_is_your_favourite_sbc,move_robot_forward]
 ```
 
 
