@@ -38,7 +38,7 @@ access_token_secret = "<access token secret>"
 def what_is_your_favourite_sbc():
     print('Raspberry Pi 4!')
 ```
-3- Within the function code the algorithm that you want to be completed once the keyword has been found
+3- Within the function, type the code that you want to be completed once the keyword has been found
 
 4- In the list *keywords* add the words that you want to be typed after your twitter handle
 
