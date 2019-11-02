@@ -37,8 +37,11 @@ def what_is_your_favourite_sbc():
     print('Raspberry Pi 4!')
 ```
 2 - Within the function code the algorithm that you want to be completed once the keyword has been found
+
 3 - In the list *keywords* add the words that you want to be typed after your twitter handle
+
 4 - In the list *actions* add the name of your function but do not put the brackets after it!
+
 5 - Then tweet *@your_twitter_handle keyword* and hopefully your actions should be completed
 
 ```python
