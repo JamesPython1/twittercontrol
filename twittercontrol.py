@@ -3,11 +3,10 @@
 #Version: 0.2
 
 import twython
-import time
 from actions import *
 
 ############### APPLICATION DETAILS ###############
-twitterHandle = ""
+twitterHandle=""
 consumer_key = ""
 consumer_secret = ""
 access_token = ""
@@ -28,8 +27,10 @@ class TwitterControl(twython.TwythonStreamer):
         print(actionsToDo)
         for item in actionsToDo:
             index=keywords.index(item)
-            p=actions[index]()
-            print("Error running function for keyword: "+item)
+            try:
+                p=actions[index]()
+            except:
+                print("Error running function for keyword: "+item)
 
 stream = TwitterControl(
     consumer_key,
